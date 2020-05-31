@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="invoiceservice.InvoiceServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-30T06:39:38" hostname="LAPTOP-U0R5V4IK" time="0.01">
+<testsuite name="invoiceservice.InvoiceServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-31T14:14:15" hostname="LAPTOP-U0R5V4IK" time="0.036">
   <properties/>
-  <testcase name="givenLessDistanceAndTime_ShouldReturnMinFare" classname="invoiceservice.InvoiceServiceTest" time="0.004"/>
-  <testcase name="givenUserIdAndMultipleRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.004"/>
-  <testcase name="givenUserIdAndRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
-  <testcase name="givendistanceAndTime_ShouldReturnTotalFare" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
-  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenPremiumRideWithDistanceAndTime_shouldReturnTotalFare" classname="invoiceservice.InvoiceServiceTest" time="0.006"/>
+  <testcase name="givenUserIdAndMultipleNormalRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.003"/>
+  <testcase name="givenPremiumRideWithLessDistanceAndTime_shouldReturnMinimumFare" classname="invoiceservice.InvoiceServiceTest" time="0.001"/>
+  <testcase name="givenNormalMultipleRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenUserIdAndMultipleRides_shouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenUserIdAndRides_shouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenNormalRideWithLessDistanceAndTime_ShouldReturnMinFare" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenMultiplePremiumRides_shouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.02"/>
+  <testcase name="givenUserIdAndNormalRides_ShouldReturnInvoiceSummary" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
+  <testcase name="givenNormalRideWithdistanceAndTime_ShouldReturnTotalFare" classname="invoiceservice.InvoiceServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

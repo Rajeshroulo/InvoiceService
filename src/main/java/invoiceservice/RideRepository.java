@@ -3,9 +3,11 @@ package invoiceservice;
 import java.util.*;
 
 public class RideRepository {
-    public Map<String, ArrayList<Ride>> userRides = null;
+    public Map<String, ArrayList<Ride>> userRides ;
 
-    public RideRepository() { this.userRides = new HashMap<>(); }
+    public RideRepository() {
+        this.userRides = new HashMap<>();
+    }
 
     public void addRide(String userId, Ride[] rides){
 
