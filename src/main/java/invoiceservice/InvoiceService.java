@@ -1,12 +1,14 @@
 package invoiceservice;
 
 public class InvoiceService {
-    private   int COST_PER_TIME;
-    private   double MINIMUM_COST_PER_KILOMETER ;
-    private   double MINIMUM_FARE;
+    private  int  COST_PER_TIME;
+    private  double MINIMUM_COST_PER_KILOMETER ;
+    private  double MINIMUM_FARE;
     private final RideRepository rideRepository;
 
-    enum ServiceType {NORMAL,PREMIUM}
+    enum ServiceType {
+        NORMAL,PREMIUM
+    }
 
     public InvoiceService() {
         this.rideRepository=new RideRepository();
